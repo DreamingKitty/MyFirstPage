@@ -1,0 +1,50 @@
+body{
+    background-color: #010116;
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(Recursos/Minecraft.ttf);
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.fade-in-visible{
+    opacity: 1;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+
+}
+.Texto{
+    text-align: left;
+    font-family: Minecraft;
+    font-size: larger;
+    color: white;
+}
+p.autor{
+    opacity: 0.6;
+    text-align: right;
+}
+
+.play-button {
+    background-color: #010116;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.play-button:hover {
+    background-color: purple;
+    transform: scale(1.05);
+}
